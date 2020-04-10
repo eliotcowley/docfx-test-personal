@@ -1,4 +1,9 @@
-# This is the **HOMEPAGE**.
-Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files.
-## Quick Start Notes:
-1. Add images to the *images* folder if the file is referencing an image.
+---
+uid: test-documentation-portal-index
+title: Test Documentation Portal
+_description: Homepage for the test documentation portal.
+---
+
+# Test Documentation Portal
+
+This is a test documentation portal using DocFX, Markdown, and GitHub Actions to author and publish documentation with CI/CD.

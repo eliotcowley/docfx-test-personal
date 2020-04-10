@@ -1,5 +1,8 @@
-- name: Articles
-  href: articles/
-- name: Api Documentation
-  href: api/
-  homepage: api/index.md
+- name: Develop
+  href: articles/develop/
+- name: Test
+  href: articles/test/
+- name: Publish
+  href: articles/publish/
+- name: Support
+  href: articles/support/
