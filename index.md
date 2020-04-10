@@ -138,7 +138,10 @@ Documentation is published to GitHub Pages every time you push to the `master` b
 
 Once you've built locally and you are good with the output, open the command line and push your changes.
 
-1. Make sure you're on the `master` branch using `git status`.
+1. Make sure you're on the `master` branch using `git status`. If you're not, checkout the `master` branch:
+    ```powershell
+    git checkout master
+    ```
 
 2. Stage your changes:
     ```powershell
@@ -155,6 +158,6 @@ Once you've built locally and you are good with the output, open the command lin
     git push
     ```
 
-5. A push to `master` will kick off CI/CD, and your documentation will build and deploy to GitHub Pages automatically. This shouldn't take more than a few minutes. You can view progress on the [GitHub repo](https://github.com/eliotcowley/docfx-test-personal/actions).
+5. A push to `master` will kick off CI/CD, and your documentation will build and deploy to GitHub Pages automatically from the `gh-pages` branch, which copies content from the `master` branch. This shouldn't take more than a few minutes. You can view progress on the [GitHub repo](https://github.com/eliotcowley/docfx-test-personal/actions).
 
 6. Once the changes are deployed, you can view them on the [GitHub Pages website](https://eliotcowley.github.io/docfx-test-personal/).
