@@ -61,7 +61,13 @@
     "cleanupCacheHistory": false,
     "disableGitFeatures": false,
     "globalMetadata": {
-      "_enableSearch": true
+      "_enableSearch": true,
+      "_appTitle": "Doc Portal",
+      "_appFooter": "Doc Portal &copy; 2020",
+      "_enableNewTab": true,
+      "keywords": "test"
+    },
+    "fileMetadata": {}
     }
   }
 }
