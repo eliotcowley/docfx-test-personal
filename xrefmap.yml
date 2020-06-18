@@ -1,0 +1,30 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: develop-index
+  name: Develop Games
+  href: articles/develop/index.html
+- uid: l3-topic
+  name: L3 Topic
+  href: articles/develop/l3-topic.html
+- uid: l4-topic
+  name: L4 Topic
+  href: articles/develop/l4-topic.html
+- uid: publish-index
+  name: Publish Your Games
+  href: articles/publish/index.html
+- uid: sub-topic
+  name: Sub-Topic
+  href: articles/develop/sub-topic.html
+- uid: support-index
+  name: Support
+  href: articles/support/index.html
+- uid: test-documentation-portal-index
+  name: Test Documentation Portal
+  href: index.html
+- uid: test-index
+  name: Test Your Games
+  href: articles/test/index.html
+- uid: top-level-topic
+  name: Top-Level Topic
+  href: articles/develop/top-level-topic.html

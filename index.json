@@ -1,0 +1,57 @@
+{
+  "articles/develop/index.html": {
+    "href": "articles/develop/index.html",
+    "title": "Develop Games | Doc Portal",
+    "keywords": "Develop Games Here you can find documentation on developing video games. H2 Check it out, an H2. H3 Oh look, an H3. Another H2 Check out the In This Article sidebar on the right. It gets built automatically from the section titles. Include Test This is a re-usable section. Tabs Test Tab group 1: Tab Text 1 Tab Text 2 Tab content-1-1. Tab content-2-1."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Test Documentation Portal | Doc Portal",
+    "keywords": "Hello This is a test documentation portal using DocFX, Markdown, and GitHub Actions to author and publish documentation with CI/CD. Install the tools DocFX : This tool is used to build the documentation. Follow Getting Started with DocFX to install DocFX. In step 2, I recommend downloading from GitHub. Git : Source control software that we use for the documentation. See this Git cheat sheet to get started. Visual Studio Code : A lightweight code editor that we use for authoring docs in Markdown. Clone the documentation repository Open PowerShell . Navigate to an easy-to-find location on your computer (like C:\\ ) using: cd <location> Enter the following command: git clone https://github.com/eliotcowley/docfx-test-personal.git Build the docs site Tip Visual Studio Code has a built-in terminal that you can use instead of opening a separate terminal window. Select View > Terminal to open it. In Powershell , navigate to the docs repo folder using: cd <location of folder> Build the site with the following command: docfx build -s You should see some output, ending with the following: Serving \"<location of folder>\\_site\" on http://localhost:8080 In your web browser, navigate to localhost:8080 . You should see the built documentation site running locally! Repository organization The docs repository is organized as follows: The articles folder contains all of the documentation files ( .md and .yml ). This folder is further organized into sub-folders corresponding to the top-level table of contents ( develop , publish , support , test ). The images folder contains all of the images for the documentation. This folder is organized the same way as articles to make it easy to find the images for a specific document. docfx.json contains settings for DocFX and should not be edited. index.md is the landing page for the documentation portal. All top-level pages also have a corresponding index.md file. toc.yml is the top-level table of contents. Each top-level category also has its own corresponding toc.yml file. Everything else is for DocFX and should not be edited. Learn Markdown Markdown is the language used to author documents in the documentation portal. It is very similar to plain text and very easy to learn. There are many flavors of Markdown, but the one we use is called DocFX Flavored Markdown . DFM itself is built on top of GitHub Flavored Markdown , so you can use any of the features of either flavor. Edit a document Open Visual Studio Code . Open the docs repo folder by selecting File > Open Folder... and browsing to the folder. Find the document you want to edit. See Repository organization to learn about the way the docs repository is organized so you can find what you're looking for. Open the file to open it in Visual Studio Code's Markdown editor. (All documents are written in Markdown and have the .md file extension.) See Learn Markdown for more information on Markdown. To preview the file, select the Open Preview to the Side icon in the top right (looks like two columns with a magnifying glass). Now you can edit the file and view its preview side-by-side. Build the site locally by following the steps in Build the docs site to make sure it looks good. Add a new document Open Visual Studio Code . Open the docs repo folder by selecting File > Open Folder... and browsing to the folder. Find the folder that should logically contain your new document. For example, if your new document will be under Develop in the TOC, then it should go in the develop folder. Right-click the folder, select New File , and name the new file, giving it a .md extension. Our convention is to use all lowercase with hyphens in between words, and name the file the same as the title of the document. Add a YAML header with metadata for the document. It must be at the top of the document and look like this: --- uid: document-unique-id title: Title of Document _description: A brief description of the document. --- The YAML header contains the metadata for the document, which will go into the HTML <head> tag. The valid metadata are: uid : A unique ID for the document, used for cross-referencing. Our convention is to use the filename, minus the .md extension. title : The title of the document. This should match the H1 header. _description : A brief description of the document. Add an H1 header with a single # character. For example: # Title Write the rest of the document. If you need help with Markdown, see Learn Markdown . Add the document to the table of contents. TOC files are called toc.yml . You can find the relative TOC in the same folder as the document. TOC files are structured like this: - name: Document1 href: document1.md - name: Document2 href: document2.md items: - name: Sub-Document href: sub-document.md Note If you edit a TOC file, you may not see the changes reflected in a local build, even after refreshing the page. Try clearing your browser's cache and refreshing again if this happens. Publish your changes Documentation is published to GitHub Pages every time you push to the master branch using GitHub Actions . Before you publish, make sure you build the docs locally by following the instructions in Build the docs site . Once you've built locally and you are good with the output, open the command line and push your changes. Make sure you're on the master branch using git status . If you're not, checkout the master branch: git checkout master Stage your changes: git add . Commit your changes with a message: git commit -m \"<Your message here>\" Push your changes: git push A push to master will kick off CI/CD, and your documentation will build and deploy to GitHub Pages automatically from the gh-pages branch, which copies content from the master branch. This shouldn't take more than a few minutes. You can view progress on the GitHub repo . Once the changes are deployed, you can view them on the GitHub Pages website ."
+  },
+  "articles/develop/l3-topic.html": {
+    "href": "articles/develop/l3-topic.html",
+    "title": "L3 Topic | Doc Portal",
+    "keywords": "L3 Topic A sublevel-3 topic to demonstrate nesting capabilities. This is probably as deep as we should go though."
+  },
+  "articles/develop/sub-topic.html": {
+    "href": "articles/develop/sub-topic.html",
+    "title": "Sub-Topic | Doc Portal",
+    "keywords": "Sub-Topic Check it out, a sub-topic. You can add sub-topics to toc.yml files."
+  },
+  "articles/publish/index.html": {
+    "href": "articles/publish/index.html",
+    "title": "Publish Your Games | Doc Portal",
+    "keywords": "Publish Your Games Learn how to publish your games."
+  },
+  "articles/support/index.html": {
+    "href": "articles/support/index.html",
+    "title": "Support | Doc Portal",
+    "keywords": "Support Get help with making games from our staff."
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "PLACEHOLDER | Doc Portal",
+    "keywords": "PLACEHOLDER TODO: Add .NET projects to the src folder and run docfx to generate REAL API Documentation !"
+  },
+  "articles/develop/top-level-topic.html": {
+    "href": "articles/develop/top-level-topic.html",
+    "title": "Top-Level Topic | Doc Portal",
+    "keywords": "Top-Level Topic Check it out, a top-level topic. You can add topics to toc.yml files."
+  },
+  "articles/test/index.html": {
+    "href": "articles/test/index.html",
+    "title": "Test Your Games | Doc Portal",
+    "keywords": "Test Your Games Here you can find documentation on testing your games."
+  },
+  "README.html": {
+    "href": "README.html",
+    "title": "docfx-test-personal | Doc Portal",
+    "keywords": "docfx-test-personal"
+  },
+  "articles/develop/l4-topic.html": {
+    "href": "articles/develop/l4-topic.html",
+    "title": "L4 Topic | Doc Portal",
+    "keywords": "L4 Topic This is just for testing, we shouldn't go this deep."
+  }
+}

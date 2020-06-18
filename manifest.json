@@ -1,0 +1,251 @@
+{
+  "homepages": [],
+  "source_base_path": "/github/workspace",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "BBX4+AR60dhY83N47/4bAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "hec/eK+Ekts5iIZ9znLpsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/develop/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/develop/index.html",
+          "hash": "e72e61ldXJZ1oUW2oUeGHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/develop/l3-topic.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/develop/l3-topic.html",
+          "hash": "adu/LtyHId9BfwXlBoDOkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/develop/l4-topic.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/develop/l4-topic.html",
+          "hash": "b5vTXzC20n5V7hW/9tW1RA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/develop/sub-topic.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/develop/sub-topic.html",
+          "hash": "2eAAdWG+Gq5UMpSPd8eQWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/develop/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/develop/toc.html",
+          "hash": "lX+Ta3WdlTwpT2VVRN5tKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/develop/top-level-topic.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/develop/top-level-topic.html",
+          "hash": "Pkys64qAtjsrcjRGWDp7/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/publish/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/publish/index.html",
+          "hash": "QX76vogsNphegLESigT30A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/publish/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/publish/toc.html",
+          "hash": "ZDwXtAtexsaJbBSRDCChQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/support/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/support/index.html",
+          "hash": "QzugwqyEnP3TZ198+7a2cQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/support/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/support/toc.html",
+          "hash": "ZDwXtAtexsaJbBSRDCChQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/test/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/test/index.html",
+          "hash": "W2fQmXMDRdC67jKUdIbZOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/test/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/test/toc.html",
+          "hash": "ZDwXtAtexsaJbBSRDCChQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "FtsOguWFecBa+k1ci49bIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "UIOMgaHayJA+amp8DDPD/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 11,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
